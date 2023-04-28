@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="SECTION">
+        <!-- <img src="img/splash.jpg" class="spl"> -->
+
+        <img src="img/img1_large.jpg" id="imgl">
+
+        <ul class="ull">
+            <li onclick="func('img/img1_large.jpg')"><img src="img/img1_thumb.jpg"></li>
+            <li onclick="func('img/img2_large.jpg')"><img src=" img/img2_thumb.jpg"></li>
+            <li onclick="func('img/img3_large.jpg')"><img src=" img/img3_thumb.jpg"></li>
+            <li onclick="func('img/img4_large.jpg')"><img src="img/img4_thumb.jpg"></li>
+        </ul>
+
+        <h2>My First Img Slider</h2>
+
+    </div>
+
+    <script>
+
+        function func(pram) {
+
+
+            document.getElementById("imgl").src = pram;
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
